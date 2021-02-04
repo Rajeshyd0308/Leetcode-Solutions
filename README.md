@@ -22,3 +22,7 @@ Submissions making more than 100 calls to MountainArray.get will be judged Wrong
 The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other.
 Given an integer n, return the number of distinct solutions to the n-queens puzzle.
 
+# Delete Nodes And Return Forest
+Given the root of a binary tree, each node in the tree has a distinct value.
+After deleting all nodes with a value in to_delete, we are left with a forest (a disjoint union of trees).
+Return the roots of the trees in the remaining forest.  You may return the result in any order.
