@@ -47,4 +47,14 @@ We start at the source square and want to reach the target square.  Each move, w
 
 Return true if and only if it is possible to reach the target square through a sequence of moves.
 
+# Middle of a Linked List
+Given a non-empty, singly linked list with head node head, return a middle node of linked list.
+
+If there are two middle nodes, return the second middle node.
+
+# Median of 2 sorted arrays
+Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
+
+Follow up: The overall run time complexity should be O(log (m+n)).
+
 
