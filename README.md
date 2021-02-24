@@ -26,3 +26,16 @@ Given an integer n, return the number of distinct solutions to the n-queens puzz
 Given the root of a binary tree, each node in the tree has a distinct value.
 After deleting all nodes with a value in to_delete, we are left with a forest (a disjoint union of trees).
 Return the roots of the trees in the remaining forest.  You may return the result in any order.
+
+# Find Elements in a Contaminated Binary Tree
+Given a binary tree with the following rules:
+
+root.val == 0
+If treeNode.val == x and treeNode.left != null, then treeNode.left.val == 2 * x + 1
+If treeNode.val == x and treeNode.right != null, then treeNode.right.val == 2 * x + 2
+Now the binary tree is contaminated, which means all treeNode.val have been changed to -1.
+
+You need to first recover the binary tree and then implement the FindElements class:
+
+FindElements(TreeNode* root) Initializes the object with a contamined binary tree, you need to recover it first.
+bool find(int target) Return if the target value exists in the recovered binary tree.
